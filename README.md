@@ -28,4 +28,5 @@ function compare(number) {
   }
   return "Not Equal";
 }
-compare
+compare(4); // " Not Equal"
+compare(10); // " Equal"
